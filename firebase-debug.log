@@ -1,0 +1,41 @@
+[debug] [2018-08-22T16:13:47.005Z] ----------------------------------------------------------------------
+[debug] [2018-08-22T16:13:47.007Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Keji\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-08-22T16:13:47.007Z] CLI Version:   3.18.6
+[debug] [2018-08-22T16:13:47.007Z] Platform:      win32
+[debug] [2018-08-22T16:13:47.007Z] Node Version:  v8.11.3
+[debug] [2018-08-22T16:13:47.008Z] Time:          Thu Aug 23 2018 00:13:47 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-08-22T16:13:47.008Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-22T16:13:47.025Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-22T16:13:47.026Z] > authorizing via signed-in user
+[debug] [2018-08-22T16:13:47.027Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-08-22T16:13:47.027Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/tvCIcANkm5-Q7U-iU3DeBdxDU0GTI65FszMM4ngrfE0',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Aug 23 2018 00:13:47 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-08-22T16:13:47.619Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-22T16:13:47.625Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/announcementapp-1bcde  
+  
+ Thu Aug 23 2018 00:13:47 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-08-22T16:13:48.816Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-22T16:13:48.817Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/announcementapp-1bcde/tokens  
+  
+ Thu Aug 23 2018 00:13:48 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-08-22T16:13:51.394Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-22T16:13:51.395Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/announcementapp-1bcde  
+  
+ Thu Aug 23 2018 00:13:51 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-08-22T16:13:53.665Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Keji\announcementapp\firebaseannoucement'...
+[info] 
+[debug] [2018-08-22T16:13:53.668Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/664776545676/clients/_:getWebAppConfig  
+  
+ Thu Aug 23 2018 00:13:53 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-08-22T16:13:55.188Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
